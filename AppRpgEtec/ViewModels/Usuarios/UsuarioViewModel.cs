@@ -1,5 +1,6 @@
 ﻿using AppRpgEtec.Models;
 using AppRpgEtec.Services;
+using AppRpgEtec.Views.Usuarios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,8 +14,9 @@ namespace AppRpgEtec.ViewModels.Usuarios
     {
         private UsuarioServices uService;
 
-        public ICommand RegistrarCommad { get; set; }
+        public ICommand RegistrarCommand { get; set; }
         public ICommand AutenticarCommand { get; set; }
+        public ICommand DirecionarCadastroCommand { get; set; }
 
 
         public UsuarioViewModel()
@@ -26,8 +28,9 @@ namespace AppRpgEtec.ViewModels.Usuarios
 
         private void InicializarCommands()
         {
-            RegistrarCommad = new Command(async () => await RegistrarUsuario());
+            RegistrarCommand = new Command(async () => await RegistrarUsuario());
             AutenticarCommand = new Command(async () => await AutenticarUsuario());
+            DirecionarCadastroCommand = new Command(async () => await DirecionarParaCadastro());
         }
 
         #region AtributosPropriedades
@@ -107,7 +110,7 @@ namespace AppRpgEtec.ViewModels.Usuarios
                     await Application.Current.MainPage
                         .DisplayAlert("Informação", mensagem, "Ok");
 
-                    Application.Current.MainPage = new MainPage();  
+                    Application.Current.MainPage = new AppShell();  
                 }
                 else 
                 {
@@ -119,6 +122,20 @@ namespace AppRpgEtec.ViewModels.Usuarios
             {
                 await Application.Current.MainPage
                     .DisplayAlert("Informção", ex.Message + "Detalhes: " + ex.InnerException, "Ok");
+            }
+        }
+
+        public async Task DirecionarParaCadastro()
+        {
+            try
+            {
+                await Application.Current.MainPage
+                    .Navigation.PushAsync(new CadastroView());
+            }
+            catch (Exception ex)
+            {
+                await Application.Current.MainPage
+                    .DisplayAlert("Informação", ex.Message + "Detalhes" + ex.InnerException, "Ok");
             }
         }
 
