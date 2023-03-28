@@ -197,6 +197,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -2133,6 +2142,15 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -4073,6 +4091,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -6009,6 +6036,15 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -7949,6 +7985,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -9885,6 +9930,15 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -11825,6 +11879,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -13763,6 +13826,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -15688,6 +15760,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -15883,6 +15964,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -16082,6 +16172,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -16277,6 +16376,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -16476,6 +16584,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -16671,6 +16788,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -16870,6 +16996,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -17065,6 +17200,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -17264,6 +17408,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -17459,6 +17612,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -17658,6 +17820,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -17853,6 +18024,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -18052,6 +18232,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -18247,6 +18436,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -18446,6 +18644,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -18641,6 +18848,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -18885,6 +19101,15 @@
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
@@ -19208,6 +19433,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
         "type": "package",
         "build": {
@@ -19513,6 +19747,15 @@
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
@@ -19822,6 +20065,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
         "type": "package",
         "build": {
@@ -20127,6 +20379,15 @@
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
@@ -20436,6 +20697,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
         "type": "package",
         "build": {
@@ -20741,6 +21011,15 @@
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
@@ -21051,6 +21330,15 @@
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
@@ -21545,6 +21833,18 @@
         "lib/net7.0-windows10.0.20348/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.pdb",
         "microsoft.maui.graphics.win2d.winui.desktop.7.0.52.nupkg.sha512",
         "microsoft.maui.graphics.win2d.winui.desktop.nuspec"
+      ]
+    },
+    "Microsoft.Web.Services3/3.0.0": {
+      "sha512": "f7TxDOPxdtxqgKma7PTUlpjeBVur9HFFvBR9UEhMU6qQiOOCG2RezmSdiMKuUlCpFB95AXoWB074ZpgCNbUupg==",
+      "type": "package",
+      "path": "microsoft.web.services3/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Microsoft.Web.Services3.dll",
+        "microsoft.web.services3.3.0.0.nupkg.sha512",
+        "microsoft.web.services3.nuspec"
       ]
     },
     "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
@@ -24414,6 +24714,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.52",
+      "Microsoft.Web.Services3 >= 3.0.0",
       "Newtonsoft.Json >= 13.0.3",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
@@ -24434,6 +24735,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.52",
+      "Microsoft.Web.Services3 >= 3.0.0",
       "Newtonsoft.Json >= 13.0.3"
     ],
     "net7.0-maccatalyst16.1": [
@@ -24443,6 +24745,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.52",
+      "Microsoft.Web.Services3 >= 3.0.0",
       "Newtonsoft.Json >= 13.0.3"
     ],
     "net7.0-windows10.0.19041": [
@@ -24453,6 +24756,7 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.52",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.52",
+      "Microsoft.Web.Services3 >= 3.0.0",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.755",
       "Microsoft.WindowsAppSDK >= 1.2.221109.1",
       "Newtonsoft.Json >= 13.0.3"
@@ -24547,6 +24851,10 @@
             "target": "Package",
             "version": "[7.0.52, )",
             "autoReferenced": true
+          },
+          "Microsoft.Web.Services3": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
@@ -24670,6 +24978,10 @@
             "version": "[7.0.52, )",
             "autoReferenced": true
           },
+          "Microsoft.Web.Services3": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
@@ -24736,6 +25048,10 @@
             "target": "Package",
             "version": "[7.0.52, )",
             "autoReferenced": true
+          },
+          "Microsoft.Web.Services3": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
@@ -24809,6 +25125,10 @@
             "target": "Package",
             "version": "[7.0.52, )",
             "autoReferenced": true
+          },
+          "Microsoft.Web.Services3": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           },
           "Microsoft.Windows.SDK.BuildTools": {
             "suppressParent": "All",
@@ -24898,5 +25218,17 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Services3 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-android33.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Services3",
+      "targetGraphs": [
+        "net7.0-android33.0"
+      ]
+    }
+  ]
 }

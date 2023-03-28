@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "slLpMmaKQHguY9B1KRL+gx5lrhluOSic32Y+cIQujLx+cMJpZFzp6zrJGQH2AodKLmOLqLvjDTnfu/ul60/Y4w==",
+  "dgSpecHash": "d4ur+kYE+fozk1hpravqbSnkiKDf8k03h2lVrYe0sJhBe68S7esX46JUjesSPitP1c7/KHbZ3ElaT4OUXtSLpg==",
   "success": true,
   "projectFilePath": "D:\\3DS_Mayara_Nicolly\\PAMII\\AppRpgEtec\\AppRpgEtec\\AppRpgEtec.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\etechas\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.4\\microsoft.graphics.win2d.1.0.4.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\microsoft.maui.graphics\\7.0.52\\microsoft.maui.graphics.7.0.52.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.52\\microsoft.maui.graphics.win2d.winui.desktop.7.0.52.nupkg.sha512",
+    "C:\\Users\\etechas\\.nuget\\packages\\microsoft.web.services3\\3.0.0\\microsoft.web.services3.3.0.0.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221109.1\\microsoft.windowsappsdk.1.2.221109.1.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
@@ -106,5 +107,16 @@
     "C:\\Users\\etechas\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.1\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.1.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.1\\microsoft.netcore.app.runtime.win-x64.7.0.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Services3 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-android33.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Services3",
+      "targetGraphs": [
+        "net7.0-android33.0"
+      ]
+    }
+  ]
 }

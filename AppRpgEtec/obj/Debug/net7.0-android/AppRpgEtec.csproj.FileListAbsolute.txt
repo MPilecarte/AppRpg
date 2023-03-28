@@ -1015,3 +1015,4 @@ D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\resiz
 D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\menudisputas.png
 D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\menupersonagens.png
 D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\menuusuarios.png
+D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\assets\Microsoft.Web.Services3.dll

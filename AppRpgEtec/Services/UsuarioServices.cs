@@ -1,9 +1,12 @@
 ﻿using AppRpgEtec.Models;
+using Microsoft.Web.Services3.Referral;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static UIKit.UIGestureRecognizer;
 
 namespace AppRpgEtec.Services
 {
@@ -12,9 +15,11 @@ namespace AppRpgEtec.Services
         private readonly Request _request;
         private const string apiUriBase = "http://mayp.somee.com/RpgApi/Usuarios";
 
-        public UsuarioServices()
+        private string _token;
+        public UsuarioServices(string token)
         {
             _request = new Request();
+            _token = token;
         }
 
         public async Task<Usuario> PostRegistrarUsuarioAsync(Usuario u)
@@ -31,6 +36,20 @@ namespace AppRpgEtec.Services
 
             return u;
 
+        }
+        public async Task<int> PutFotoUsuarioAsync(Usuario u)
+        {
+            string urlComplementar = "/AtualizarFoto";
+            var result = await _request.PutAsync(apiUriBase + urlComplementar, u, _token);
+            return result;
+        }
+
+        public async Task<Usuario> GetUsuarioAsync(int usuarioId)
+        {
+            string urlComplementar = string.Format("/{0}", usuarioId);
+            var usuario = await
+            _request.GetAsync<Models.Usuario>(apiUriBase + urlComplementar, _token);
+            return usuario;
         }
     }
 }
