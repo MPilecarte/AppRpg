@@ -76,6 +76,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Platforms\Android\Resources\xml\file_paths.xml" />
 	  <None Remove="Resources\Images\etec_cps.svg" />
 	  <None Remove="Resources\Images\exit.svg" />
 	  <None Remove="Resources\Images\has_logo_transparente.svg" />
@@ -90,7 +91,9 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="Microsoft.Web.Services3" Version="3.0.0" />
+		<PackageReference Include="MongoDB.Bson" Version="2.19.1" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Xam.Plugin.Media" Version="5.0.1" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -107,6 +110,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Usuarios\CadastroView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Usuarios\ImagemUsuarioView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Usuarios\ListagemView.xaml">

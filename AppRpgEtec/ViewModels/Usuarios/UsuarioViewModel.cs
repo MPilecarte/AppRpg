@@ -22,7 +22,8 @@ namespace AppRpgEtec.ViewModels.Usuarios
 
         public UsuarioViewModel()
         {
-            uService = new UsuarioServices();
+            string token = Preferences.Get("UsuarioToken", string.Empty);
+            uService = new UsuarioServices(token);
             InicializarCommands();
         
         }

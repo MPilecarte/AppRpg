@@ -6,19 +6,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static UIKit.UIGestureRecognizer;
+//using static UIKit.UIGestureRecognizer;
 
 namespace AppRpgEtec.Services
 {
-    public class UsuarioServices : Request
+    public class UsuarioServices : UsuarioService
     {
-        private readonly Request _request;
+        private readonly UsuarioService _request;
         private const string apiUriBase = "http://mayp.somee.com/RpgApi/Usuarios";
 
         private string _token;
         public UsuarioServices(string token)
         {
-            _request = new Request();
+            _request = new UsuarioService();
             _token = token;
         }
 

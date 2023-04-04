@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:viewsUsuarios="clr-namespace:AppRpgEtec.Views.Usuarios"
     xmlns:viewsPersonagens="clr-namespace:AppRpgEtec.Views.Personagens"
-    xmlns:viewsDisputas="clr-namespace:AppRpgEtec.Views.Usuarios"
+    xmlns:viewsDisputas="clr-namespace:AppRpgEtec.Views.Disputas"
     xmlns:local="clr-namespace:AppRpgEtec">
 
     <Shell.FlyoutHeaderTemplate>
@@ -18,7 +18,7 @@
                 </Grid.RowDefinitions>
                 <FlexLayout Grid.Row="0" Direction="Row" AlignItems="Center" >
                     <Frame Padding="0" CornerRadius="40"
-HeightRequest="80" WidthRequest="80" >
+                           HeightRequest="80" WidthRequest="80" >
                         <!--<Image Source="has_logo_transparente.svg"/>-->
                     </Frame>
                     <VerticalStackLayout Padding="10,0,0,0" Spacing="0">
@@ -40,10 +40,13 @@ HeightRequest="80" WidthRequest="80" >
         <ShellContent Title="Personagens" Icon="menupersonagens.svg"
                       ContentTemplate="{DataTemplate viewsPersonagens:ListagemView}"/>
 
-            <ShellContent Title="Disputas" Icon="menudisputas.svg"
-                  ContentTemplate="{DataTemplate viewsDisputas:ListagemView}" />
+        <ShellContent Title="Disputas" Icon="menudisputas.svg"
+                      ContentTemplate="{DataTemplate viewsDisputas:ListagemView}" />
         
         <Tab Title="Info" Route="info" Icon="info.svg">
+            
+            <ShellContent Title="Usuário" Route="usuario"
+                          ContentTemplate="{DataTemplate viewsUsuarios:ImagemUsuarioView}"/>
             <ShellContent Title="Sobre" Route="sobre" 
                           ContentTemplate="{DataTemplate local:AboutView}"/>
             <ShellContent Title="Descrição" Route="desc" 

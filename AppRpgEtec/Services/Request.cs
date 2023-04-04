@@ -7,26 +7,25 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net.Http.Headers;
 
-
 namespace AppRpgEtec.Services
 {
-    public class Request
+    public class UsuarioService
     {
 
-        private readonly Request _request;
+        private readonly UsuarioService _request;
         private const string apiUrlBase = "http://mayp.somee.com/RpgApi/Usuarios";
 
         private string _token;
-        public UsuarioServices(string token)
+        public UsuarioService(string token)
         {
-            _request = new Request();
+            _request = new UsuarioService();
             _token = token;
 
         }
 
-        public UsuarioServices()
+        public UsuarioService()
         {
-            _request = new Request();
+            _request = new UsuarioService();
         }
 
         public async Task<int> PostReturnIntAsync<TResult>(String uri, TResult data)
