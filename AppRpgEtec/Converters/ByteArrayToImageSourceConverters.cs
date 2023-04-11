@@ -10,11 +10,10 @@ namespace AppRpgEtec.Converters
 {
     public class ByteArrayToImageSourceConverters : IValueConverter
     {
-        public object Convert(object value, Type targetType,
-            object parameter, System.Globalization.CultureInfo culture)
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             ImageSource retSource = null;
-            if(value != null)
+            if (value != null)
             {
                 byte[] imageAsBytes = (byte[])value;
                 retSource = ImageSource.FromStream(() => new MemoryStream(imageAsBytes));

@@ -4,12 +4,14 @@
              x:Class="AppRpgEtec.Views.Usuarios.ImagemUsuarioView"
              xmlns:conv="clr-namespace:AppRpgEtec.Converters"
              Title="ImagemUsuarioView">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <conv:ByteArrayToImageSourceConverters x:Key="ByteArrayToImage" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
     <ScrollView>
-        <ContentPage.Resources>
-            <ResourceDictionary>
-                <conv:ByteArrayToImageSourceConverter x:Key="ByteArrayToImage" />
-            </ResourceDictionary>
-        </ContentPage.Resources>
         <VerticalStackLayout>
             <ScrollView>
                 <VerticalStackLayout HorizontalOptions="FillAndExpand" 
@@ -32,7 +34,9 @@
                     </Grid>
                 </VerticalStackLayout>
             </ScrollView>
-            <Image Source="{Binding FonteImagem}" Margin="10"/>
+
+            <Image WidthRequest="400" HeightRequest="400"
+                Source="{Binding Foto, Converter={StaticResource ByteArrayToImage}}" Margin="20"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

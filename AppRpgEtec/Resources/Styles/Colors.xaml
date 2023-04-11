@@ -9,9 +9,12 @@
     <Color x:Key="DarkTextColor">#000</Color>
 
 
-    <Color x:Key="Primary">#512BD4</Color>
+    <Color x:Key="Primary">#F7B548</Color>
+    <Color x:Key="Secondary">#FFD590</Color>
+    <Color x:Key="Tertiary">#FFE5B9</Color>
+    <!--<Color x:Key="Primary">#512BD4</Color>
     <Color x:Key="Secondary">#DFD8F7</Color>
-    <Color x:Key="Tertiary">#2B0B98</Color>
+    <Color x:Key="Tertiary">#2B0B98</Color>-->
     <Color x:Key="White">White</Color>
     <Color x:Key="Black">Black</Color>
     <Color x:Key="Gray100">#E1E1E1</Color>

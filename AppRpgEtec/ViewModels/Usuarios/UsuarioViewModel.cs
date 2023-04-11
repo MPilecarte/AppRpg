@@ -1,6 +1,7 @@
 ﻿using AppRpgEtec.Message;
 using AppRpgEtec.Models;
 using AppRpgEtec.Services;
+using AppRpgEtec.Services.Usuarios;
 using AppRpgEtec.Views.Usuarios;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace AppRpgEtec.ViewModels.Usuarios
 {
     public class UsuarioViewModel : BaseViewModel
     {
-        private UsuarioServices uService;
+        private UsuarioService uService;
 
         public ICommand RegistrarCommand { get; set; }
         public ICommand AutenticarCommand { get; set; }
@@ -23,7 +24,8 @@ namespace AppRpgEtec.ViewModels.Usuarios
         public UsuarioViewModel()
         {
             string token = Preferences.Get("UsuarioToken", string.Empty);
-            uService = new UsuarioServices(token);
+            uService = new UsuarioService(token);
+
             InicializarCommands();
         
         }

@@ -1,5 +1,6 @@
 ﻿using AppRpgEtec.Models;
 using AppRpgEtec.Services;
+using AppRpgEtec.Services.Usuarios;
 using Plugin.Media;
 using System;
 using System.Collections.Generic;
@@ -12,16 +13,18 @@ namespace AppRpgEtec.ViewModels.Usuarios
 {
     public class ImagemUsuarioViewModel : BaseViewModel
     {
-        private UsuarioServices uService;
+        private UsuarioService uService;
 
         public ImagemUsuarioViewModel()
         {
             string token = Preferences.Get("UsuarioToken", string.Empty);
-            uService = new UsuarioServices(token);
+            uService = new UsuarioService(token);
 
             AbrirGaleriaCommand = new Command(AbrirGaleria);
             SalvarImagemCommand = new Command(SalvarImagem);
             FotografarCommand = new Command(Fotografar);
+
+            CarregarUsuario();
         }
 
         public ICommand AbrirGaleriaCommand { get; }
@@ -146,6 +149,22 @@ namespace AppRpgEtec.ViewModels.Usuarios
                 Foto = ms.ToArray();
                 return;
 
+            }
+            catch(Exception ex)
+            {
+                await Application.Current.MainPage
+                    .DisplayAlert("Ops", ex.Message + "Detalhes: " + ex.InnerException, "Ok");
+            }
+        }
+
+        public async void CarregarUsuario()
+        {
+            try
+            {
+                int usuarioId = Preferences.Get("UsuarioId", 0);
+                Usuario u = await uService.GetUsuarioAsync(usuarioId);  
+
+                Foto = u.Foto;
             }
             catch(Exception ex)
             {

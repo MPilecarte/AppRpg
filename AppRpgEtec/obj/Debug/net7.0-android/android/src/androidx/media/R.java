@@ -8,9 +8,9 @@ package androidx.media;
 
 public final class R {
 	public static final class color {
-		public static final int notification_material_background_media_default_color = 0x7f05024e;
-		public static final int primary_text_default_material_dark = 0x7f050253;
-		public static final int secondary_text_default_material_dark = 0x7f050259;
+		public static final int notification_material_background_media_default_color = 0x7f05024f;
+		public static final int primary_text_default_material_dark = 0x7f050254;
+		public static final int secondary_text_default_material_dark = 0x7f05025a;
 	}
 	public static final class id {
 		public static final int action0 = 0x7f080030;

@@ -1015,8 +1015,6 @@ D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\andro
 D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\assets\Plugin.Media.pdb
 D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\assets\Xamarin.Essentials.dll
 D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\assets\Xamarin.Essentials.pdb
-D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\typemaps.arm64-v8a.ll
-D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\environment.arm64-v8a.ll
 D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\src\crc646957603ea1820544\MediaPickerActivity.java
 D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\src\crc64a0e0a82d0db9a07d\AccelerometerListener.java
 D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\src\crc64a0e0a82d0db9a07d\ActivityLifecycleContextListener.java
@@ -1034,9 +1032,11 @@ D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\andro
 D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\src\crc64a0e0a82d0db9a07d\TextToSpeechImplementation.java
 D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\src\crc64a0e0a82d0db9a07d\WebAuthenticatorCallbackActivity.java
 D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\src\xamarin\essentials\fileProvider.java
-D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\compressed_assemblies.arm64-v8a.ll
-D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\typemaps.arm64-v8a.o
-D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\environment.arm64-v8a.o
-D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\compressed_assemblies.arm64-v8a.o
-D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\jni_remap.arm64-v8a.o
-D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
+D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\typemaps.x86_64.ll
+D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\environment.x86_64.ll
+D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\compressed_assemblies.x86_64.ll
+D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\typemaps.x86_64.o
+D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\environment.x86_64.o
+D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\compressed_assemblies.x86_64.o
+D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\android\jni_remap.x86_64.o
+D:\3DS_Mayara_Nicolly\PAMII\AppRpgEtec\AppRpgEtec\obj\Debug\net7.0-android\app_shared_libraries\x86_64\libxamarin-app.so
