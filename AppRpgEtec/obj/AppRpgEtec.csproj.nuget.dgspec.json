@@ -90,10 +90,6 @@
               "version": "[7.0.52, )",
               "autoReferenced": true
             },
-            "Microsoft.Web.Services3": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            },
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.19.1, )"
@@ -224,10 +220,6 @@
               "version": "[7.0.52, )",
               "autoReferenced": true
             },
-            "Microsoft.Web.Services3": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            },
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.19.1, )"
@@ -302,10 +294,6 @@
               "target": "Package",
               "version": "[7.0.52, )",
               "autoReferenced": true
-            },
-            "Microsoft.Web.Services3": {
-              "target": "Package",
-              "version": "[3.0.0, )"
             },
             "MongoDB.Bson": {
               "target": "Package",
@@ -387,10 +375,6 @@
               "target": "Package",
               "version": "[7.0.52, )",
               "autoReferenced": true
-            },
-            "Microsoft.Web.Services3": {
-              "target": "Package",
-              "version": "[3.0.0, )"
             },
             "Microsoft.Windows.SDK.BuildTools": {
               "suppressParent": "All",

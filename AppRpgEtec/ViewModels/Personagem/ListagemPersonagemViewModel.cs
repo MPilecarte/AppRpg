@@ -6,22 +6,26 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace AppRpgEtec.ViewModels
 {
     public class ListagemPersonagemViewModel : BaseViewModel
     {
         private PersonagemService pService;
-        public ObservableCollection<Personagem> Personagens { get; set; }   
+        public ObservableCollection<AppRpgEtec.Models.Personagem> Personagens { get; set; }   
 
+        public ICommand NovoPersonagem { get; }
+        
         public ListagemPersonagemViewModel() 
         {
             string token = Preferences.Get("UsuarioToken", string.Empty);
-            pService= new PersonagemService(token);
-            Personagens = new ObservableCollection<Personagem>();
+            pService = new PersonagemService(token);
+            Personagens = new ObservableCollection<AppRpgEtec.Models.Personagem>();
 
             _ = ObterPersonagens();
 
+            NovoPersonagem = new Command(async () => { await ExibirCadastroPersonagem(); });
         }
 
         public async Task ObterPersonagens()
@@ -35,6 +39,19 @@ namespace AppRpgEtec.ViewModels
             {
                 await Application.Current.MainPage
                     .DisplayAlert("Ops", ex.Message + "Detalhes: " + ex.InnerException, "Ok");
+            }
+        }
+
+        public async Task ExibirCadastroPersonagem()
+        {
+            try
+            {
+                await Shell.Current.GoToAsync("cadPersonagemView");
+            }
+            catch (Exception ex)
+            {
+                await Application.Current.MainPage
+                  .DisplayAlert("Ops", ex.Message + "Detalhes: " + ex.InnerException, "Ok");
             }
         }
     }

@@ -17,6 +17,9 @@
     <MauiXaml Update="Views\Disputas\ListagemView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Personagens\CadastroPersonagemView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Personagens\ListagemView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

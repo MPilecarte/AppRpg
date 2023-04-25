@@ -7,9 +7,9 @@ using AppRpgEtec.Models;
 using System.Net.Mail;
 using System.Net;
 using System.IO;
-using Microsoft.Web.Services3.Addressing;
+
 using System.Security.Cryptography.X509Certificates;
-using Microsoft.Web.Services3.Mime;
+
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace AppRpgEtec.Message

@@ -19,7 +19,6 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Extensions.Options.dll",
 		"Microsoft.Extensions.Primitives.dll",
 		"Microsoft.Maui.Graphics.dll",
-		"Microsoft.Web.Services3.dll",
 		"MongoDB.Bson.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.Media.dll",
