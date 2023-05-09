@@ -11,6 +11,7 @@ using System.Windows.Input;
 
 namespace AppRpgEtec.ViewModels.Personagem
 {
+    [QueryProperty("PersonagemSelecionadoId", "pId")]
     public class CadastroPersonagemViewModel : BaseViewModel
     {
         private PersonagemService pService;
@@ -21,11 +22,11 @@ namespace AppRpgEtec.ViewModels.Personagem
         public CadastroPersonagemViewModel()
         {
             string token = Preferences.Get("UsuarioToken", string.Empty);
-            pService= new PersonagemService(token);
+            pService = new PersonagemService(token);
             _ = ObterClasses();
 
             SalvarCommand = new Command(async () => { await SalvarPersonagem(); });
-            CancelarCommand = new Command(async => CancelarCadastro());
+            CancelarCommand = new Command(async =>  CancelarCadastro());
         }
 
         private int id;
@@ -141,6 +142,18 @@ namespace AppRpgEtec.ViewModels.Personagem
             }
         }
 
+        private string personagemSelecionadoId;
+        public string PersonagemSelecionadoId
+        {
+            set
+            {
+                if (value != null)
+                {
+                    personagemSelecionadoId = Uri.EscapeDataString(value);
+                    CarregarPersonagem();
+                }
+            }
+        }
 
         public async Task ObterClasses()
         {
@@ -178,7 +191,7 @@ namespace AppRpgEtec.ViewModels.Personagem
         {
             try
             {
-                AppRpgEtec.Models.Personagem model = new AppRpgEtec.Models.Personagem()
+                Models.Personagem model = new Models.Personagem()
                 {
                     Nome = this.nome,
                     PontosVida = this.pontosVida,
@@ -194,6 +207,8 @@ namespace AppRpgEtec.ViewModels.Personagem
 
                 if (model.Id == 0)
                     await pService.PostPersonagemAsync(model);
+                else
+                    await pService.PutPersonagemAsync(model);
 
                 await Application.Current.MainPage
                     .DisplayAlert("Mensagem", "Dados salvos com sucesso!", "Ok");
@@ -202,13 +217,42 @@ namespace AppRpgEtec.ViewModels.Personagem
             }
             catch(Exception ex)
             {
-
+                await Application.Current.MainPage
+                  .DisplayAlert("Ops", ex.Message + "Detalhes: " + ex.InnerException, "Ok");
             }
         }
 
         private async void CancelarCadastro()
         {
             await Shell.Current.GoToAsync("..");
+        }
+
+
+        public async void CarregarPersonagem()
+        {
+            try
+            {
+                AppRpgEtec.Models.Personagem p = await
+                    pService.GetPersonagemAsync(int.Parse(personagemSelecionadoId));
+
+                this.Nome = p.Nome;
+                this.PontosVida = p.PontosVida;
+                this.Defesa = p.Defesa;
+                this.Derrotas = p.Derrotas;
+                this.Disputas = p.Disputas;
+                this.Forca = p.Forca;
+                this.Inteligencia = p.Inteligencia;
+                this.Vitorias = p.Vitorias;
+                this.Id = p.Id;
+
+                TipoClasseSelecionado = this.ListaTiposClasse
+                    .FirstOrDefault(tClasse => tClasse.Id == (int)p.Classe);
+            }
+            catch (Exception ex) 
+            {
+                await Application.Current.MainPage
+                 .DisplayAlert("Ops", ex.Message + "Detalhes: " + ex.InnerException, "Ok");
+            }
         }
     }
 }

@@ -11,8 +11,7 @@ namespace AppRpgEtec.Services.Personagens
     public class PersonagemService : Request
     {
         private readonly Request _request;
-        //private const string apiUriBase = "https://bsite.net/luizfernando987/Usuarios";
-        private const string apiUriBase = "http://mayp.somee.com/RpgApi/Personagens";
+        private const string apiUriBase = "https://bsite.net/luizfernando987/Personagens";
         private string _token;
 
         public PersonagemService(string token)
