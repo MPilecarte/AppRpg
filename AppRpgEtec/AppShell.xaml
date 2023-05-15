@@ -6,7 +6,7 @@
     xmlns:viewsUsuarios="clr-namespace:AppRpgEtec.Views.Usuarios"
     xmlns:viewsPersonagens="clr-namespace:AppRpgEtec.Views.Personagens"
     xmlns:viewsDisputas="clr-namespace:AppRpgEtec.Views.Disputas"
-    xmlns:viewArmas ="clr-namespace:AppRpgEtec.Views.Armas"
+    xmlns:viewsArmas ="clr-namespace:AppRpgEtec.Views.Armas"
     xmlns:conv="clr-namespace:AppRpgEtec.Converters"
     xmlns:local="clr-namespace:AppRpgEtec">
 
@@ -45,10 +45,10 @@
         <ShellContent Title="Usuarios" Icon="menuusuarios.svg"
                       ContentTemplate="{DataTemplate viewsUsuarios:ListagemView}"/>
 
-        <!--<ShellContent Title="Personagens" Icon="menuarmas.svg"
-                      ContentTemplate="{DataTemplate viewsArmas:ListagemView}"/>-->
+        <ShellContent Title="Armas" Icon="menuarmas.svg"
+                      ContentTemplate="{DataTemplate viewsArmas:ListagemArmaView}"/>
 
-        <ShellContent Title="Armas" Icon="menupersonagens.svg"
+        <ShellContent Title="Personagens" Icon="menupersonagens.svg"
                       ContentTemplate="{DataTemplate viewsPersonagens:ListagemView}"/>
 
         <ShellContent Title="Disputas" Icon="menudisputas.svg"
