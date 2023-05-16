@@ -19,11 +19,13 @@ namespace AppRpgEtec.ViewModels.Armas
 
             ObterPersonagens();
 
-            //SalvarCommand = new Command(async () => await SalvarArma());
-            SalvarCommand = new Command(SalvarArma);
+           SalvarCommand = new Command(async () => await SalvarArma());
+            CancelarCommand = new Command(CancelarArma);
+            //SalvarCommand = new Command(async => SalvarArma());
         }
 
         public ICommand SalvarCommand { get; set; }
+        public ICommand CancelarCommand { get;}
 
 
 
@@ -109,7 +111,7 @@ namespace AppRpgEtec.ViewModels.Armas
             }
         }
 
-        public async void SalvarArma()
+        public async Task SalvarArma()
         {
             try
             {
@@ -124,7 +126,6 @@ namespace AppRpgEtec.ViewModels.Armas
                 if (model.Id == 0)
                     await aService.PostArmaAsync(model);
                 
-
                 await Application.Current.MainPage.DisplayAlert("Mensagem", "Dados salvo com sucesso", "Ok");
 
                 await Shell.Current.GoToAsync("..");
@@ -133,6 +134,11 @@ namespace AppRpgEtec.ViewModels.Armas
             {
                 await Application.Current.MainPage.DisplayAlert("Ops!", ex.Message, "Ok");
             }
+        }
+
+        public async void CancelarArma()
+        {
+            await Shell.Current.GoToAsync("..");
         }
 
         

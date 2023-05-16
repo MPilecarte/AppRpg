@@ -21,10 +21,10 @@
                         ItemDisplayBinding="{Binding Nome}" 
                         SelectedItem="{Binding PersonagemSelecionado}" />
 
-                <HorizontalStackLayout>
+                <HorizontalStackLayout Spacing="20">
                     <Button Text="Salvar" Command="{Binding SalvarCommand}" HorizontalOptions="FillAndExpand"></Button>
+                    <Button Text="Cancelar" Command="{Binding CancelarCommand}" HorizontalOptions="FillAndExpand"></Button>
                 </HorizontalStackLayout>
-
             </VerticalStackLayout>
             </ScrollView>
     </VerticalStackLayout>

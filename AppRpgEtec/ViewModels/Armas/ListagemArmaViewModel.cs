@@ -1,4 +1,5 @@
-﻿using AppRpgEtec.Services.Armas;
+﻿using AppRpgEtec.Models;
+using AppRpgEtec.Services.Armas;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -27,6 +28,22 @@ namespace AppRpgEtec.ViewModels.Armas
             NovaArma = new Command(async () => { await ExibirCadastroArma(); }) ;
         }
 
+      
+
+        public async Task ObterArmas()
+        {
+            try
+            {
+                Armas = await armaService.GetArmasAsync();
+                OnPropertyChanged(nameof(Armas));
+            }
+            catch (Exception ex)
+            {
+                await Application.Current.MainPage
+                    .DisplayAlert("Ops", ex.Message + "Detalhes: " + ex.InnerException, "Ok");
+            }
+        }
+
         public async Task ExibirCadastroArma()
         {
             try
@@ -40,17 +57,25 @@ namespace AppRpgEtec.ViewModels.Armas
             }
         }
 
-        public async Task ObterArmas()
+        public async Task RemoverArma(Arma a)
         {
             try
             {
-                Armas = await armaService.GetArmasAsync();
-                OnPropertyChanged(nameof(Armas));
+                if (await Application.Current.MainPage.
+                    DisplayAlert("Confirmação", $"Você deseja mesmo excluir {a.Nome}?", "Sim", "Não"))
+                {
+                    await armaService.DeleteArmaAsync(a.Id);
+
+                    await Application.Current.MainPage.DisplayAlert("Mensagem",
+                        "Arma removida com sucesso!", "Ok");
+
+                    _ = ObterArmas();
+                }
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 await Application.Current.MainPage
-                    .DisplayAlert("Ops", ex.Message + "Detalhes: " + ex.InnerException, "Ok");
+                 .DisplayAlert("Ops", ex.Message + "Detalhes: " + ex.InnerException, "Ok");
             }
         }
     }

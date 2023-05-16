@@ -20,30 +20,32 @@ namespace AppRpgEtec.Services.Armas
         public async Task<ObservableCollection<Arma>> GetArmasAsync()
         {
             string urlComplementar = string.Format("{0}", "/GetAll");
-            ObservableCollection<Models.Arma> listaArmas = await
-                _request.GetAsync<ObservableCollection<Models.Arma>>(ApiUrlBase + urlComplementar, _token);
+            ObservableCollection<Arma> listaArmas = await
+                _request.GetAsync<ObservableCollection<Arma>>(ApiUrlBase + urlComplementar, _token);
 
             return listaArmas;
-        }        
+        }     
+        
         public async Task<Arma> GetArmaAsync(int armaId)
         {
             string urlComplementar = string.Format("/{0}", armaId);
 
-            var arma = await
-                _request.GetAsync<Models.Arma>(ApiUrlBase + urlComplementar, _token);
+            var arma = await _request.GetAsync<Arma>(ApiUrlBase + urlComplementar, _token);
 
             return arma;            
         }
 
-        public async Task<Arma> PostArmaAsync(Arma a)
+        public async Task<int> PostArmaAsync(Arma a)
         {
-            return await _request.PostAsync(ApiUrlBase, a, _token);
+            return await _request.PostReturnIntTokenAsync(ApiUrlBase, a, _token);
         }
+
         public async Task<int> PutArmaAsync(Arma a)
         {
             var result = await _request.PutAsync(ApiUrlBase, a, _token);
             return result;
         }
+
         public async Task<int> DeleteArmaAsync(int ArmaId)
         {
             string urlComplementar = string.Format("/{0}", ArmaId);

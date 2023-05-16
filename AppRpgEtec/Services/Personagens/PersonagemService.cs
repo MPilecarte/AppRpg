@@ -30,7 +30,7 @@ namespace AppRpgEtec.Services.Personagens
         {
             string urlComplementar = string.Format("{0}", "/GetAll");
             ObservableCollection<Models.Personagem> listaPersonagens = await
-            _request.GetAsync<ObservableCollection<Models.Personagem>>(apiUriBase + urlComplementar,
+            _request.GetAsync<ObservableCollection<Personagem>>(apiUriBase + urlComplementar,
             _token);
             return listaPersonagens;
         }
@@ -38,7 +38,7 @@ namespace AppRpgEtec.Services.Personagens
         public async Task<Personagem> GetPersonagemAsync(int personagemId)
         {
             string urlComplementar = string.Format("/{0}", personagemId);
-            var personagem = await _request.GetAsync<Models.Personagem>(apiUriBase +
+            var personagem = await _request.GetAsync<Personagem>(apiUriBase +
             urlComplementar, _token);
             return personagem;
         }

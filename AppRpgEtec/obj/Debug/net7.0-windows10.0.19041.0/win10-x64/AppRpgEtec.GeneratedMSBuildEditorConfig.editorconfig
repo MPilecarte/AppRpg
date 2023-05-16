@@ -8,99 +8,99 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppRpgEtec
-build_property.ProjectDir = C:\Users\mayar\OneDrive\Documentos\3DS\PMB\AppRpg\AppRpgEtec\
+build_property.ProjectDir = D:\3DS_Mayara_Nicolly\PAMII\AppRpg\AppRpgEtec\
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/AboutView.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/AboutView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.AboutView.xaml
 build_metadata.AdditionalFiles.TargetPath = AboutView.xaml
 build_metadata.AdditionalFiles.RelativePath = AboutView.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/App.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/AppShell.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/DescriptionView.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/DescriptionView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.DescriptionView.xaml
 build_metadata.AdditionalFiles.TargetPath = DescriptionView.xaml
 build_metadata.AdditionalFiles.RelativePath = DescriptionView.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/MainPage.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/Resources/Styles/Colors.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/Resources/Styles/Styles.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/Views/Armas/CadastroArmaView.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/Views/Armas/CadastroArmaView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Armas.CadastroArmaView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Armas\CadastroArmaView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Armas\CadastroArmaView.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/Views/Armas/ListagemArmaView.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/Views/Armas/ListagemArmaView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Armas.ListagemArmaView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Armas\ListagemArmaView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Armas\ListagemArmaView.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/Views/Disputas/ListagemView.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/Views/Disputas/ListagemView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Disputas.ListagemView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Disputas\ListagemView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Disputas\ListagemView.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/Views/Personagens/CadastroPersonagemView.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/Views/Personagens/CadastroPersonagemView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Personagens.CadastroPersonagemView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Personagens\CadastroPersonagemView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Personagens\CadastroPersonagemView.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/Views/Personagens/ListagemView.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/Views/Personagens/ListagemView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Personagens.ListagemView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Personagens\ListagemView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Personagens\ListagemView.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/Views/Usuarios/CadastroView.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/Views/Usuarios/CadastroView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Usuarios.CadastroView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\CadastroView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\CadastroView.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/Views/Usuarios/ImagemUsuarioView.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/Views/Usuarios/ImagemUsuarioView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Usuarios.ImagemUsuarioView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\ImagemUsuarioView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\ImagemUsuarioView.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/Views/Usuarios/ListagemView.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/Views/Usuarios/ListagemView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Usuarios.ListagemView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\ListagemView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\ListagemView.xaml
 
-[C:/Users/mayar/OneDrive/Documentos/3DS/PMB/AppRpg/AppRpgEtec/Views/Usuarios/LoginView.xaml]
+[D:/3DS_Mayara_Nicolly/PAMII/AppRpg/AppRpgEtec/Views/Usuarios/LoginView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Usuarios.LoginView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\LoginView.xaml

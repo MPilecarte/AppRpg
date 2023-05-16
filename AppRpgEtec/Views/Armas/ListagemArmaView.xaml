@@ -7,6 +7,7 @@
         <Button Command="{Binding NovaArma}" Text="Novo" HorizontalOptions="End"></Button>
     </Shell.TitleView>
 
+    <ScrollView>
     <VerticalStackLayout>
         <ScrollView>
             <VerticalStackLayout Padding="10, 0, 0, 0" VerticalOptions="FillAndExpand">
@@ -14,12 +15,12 @@
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <ViewCell.ContextActions>
+                                <!--<ViewCell.ContextActions>
                                     <MenuItem Text="Remover" IconImageSource="Delete.png" IsDestructive="True"
-                                          Command="{Binding Path=BindingContext.RemoverPersonagemCommand,
+                                          Command="{Binding Path=BindingContext.ArmaCommand,
                                     Source={x:Reference listView}}"
                                           CommandParameter="{Binding .}"></MenuItem>
-                                </ViewCell.ContextActions>
+                                </ViewCell.ContextActions>-->
                                 <StackLayout Padding="10">
                                     <Label Text="{Binding Nome}" FontSize="18" FontAttributes="Bold"/>
                                     <Label Text="{Binding Dano}" FontSize="14"/>
@@ -32,4 +33,5 @@
             </VerticalStackLayout>
         </ScrollView>
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
