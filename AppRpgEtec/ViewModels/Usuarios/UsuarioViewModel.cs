@@ -91,9 +91,12 @@ namespace AppRpgEtec.ViewModels.Usuarios
             }
         }
 
+        private CancellationTokenSource _cancelTokenSource;
+        private bool _isCheckingLocation;
 
         public async Task AutenticarUsuario()
         {
+
             try 
             {
                 Usuario u = new Usuario();
@@ -124,10 +127,25 @@ namespace AppRpgEtec.ViewModels.Usuarios
                     EmailHelper emailHelper= new EmailHelper();
                     await emailHelper.EnviarEmail(email);
 
-                    await Application.Current.MainPage
+                    _isCheckingLocation = true;
+                    _cancelTokenSource = new CancellationTokenSource();
+                    GeolocationRequest request = new GeolocationRequest(GeolocationAccuracy.Medium, 
+                        TimeSpan.FromSeconds(10));
+                    Location location = await Geolocation.Default.GetLocationAsync(request, _cancelTokenSource.Token);
+
+                    Usuario uLoc = new Usuario();
+                    uLoc.Id = uAutenticado.Id;
+                    uLoc.Latitude = uAutenticado.Latitude;  
+                    uLoc.Longitude = uAutenticado.Longitude;
+
+                    UsuarioService uServiceLoc = new UsuarioService(uAutenticado.Token);
+                    await uServiceLoc.PutAtualizarLocalizacaoAsync(uLoc);   
+
+                                await Application.Current.MainPage
                         .DisplayAlert("Informação", mensagem, "Ok");
 
                     Application.Current.MainPage = new AppShell();  
+
                 }
                 else 
                 {
@@ -156,7 +174,7 @@ namespace AppRpgEtec.ViewModels.Usuarios
             }
         }
 
-
+        
         #endregion
     }
 }

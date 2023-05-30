@@ -2,6 +2,7 @@
 using AppRpgEtec.Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -52,6 +53,23 @@ namespace AppRpgEtec.Services.Usuarios
             var usuario = await
             _request.GetAsync<Models.Usuario>(apiUriBase + urlComplementar, _token);
             return usuario;
+        }
+
+        public async Task<int> PutAtualizarLocalizacaoAsync(Usuario u)
+        {
+            string urlComplementar = "/AtualizarLocalizacao";
+            var result = await _request.PutAsync(apiUriBase + urlComplementar, u, _token);
+            return result;
+        }
+
+        //using System.Collections.ObjectModel
+        public async Task<ObservableCollection<Usuario>> GetUsuariosAsync()
+        {
+            string urlComplementar = string.Format("{0}", "/GetAll");
+            ObservableCollection<Models.Usuario> listaUsuarios = await
+            _request.GetAsync<ObservableCollection<Models.Usuario>>(apiUriBase + urlComplementar,
+            _token);
+            return listaUsuarios;
         }
     }
 }

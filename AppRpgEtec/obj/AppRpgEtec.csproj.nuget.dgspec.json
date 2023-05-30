@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\3DS_Mayara_Nicolly\\PAMII\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj": {}
+    "D:\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj": {}
   },
   "projects": {
-    "D:\\3DS_Mayara_Nicolly\\PAMII\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj": {
+    "D:\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3DS_Mayara_Nicolly\\PAMII\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj",
+        "projectUniqueName": "D:\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj",
         "projectName": "AppRpgEtec",
-        "projectPath": "D:\\3DS_Mayara_Nicolly\\PAMII\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj",
+        "projectPath": "D:\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj",
         "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-        "outputPath": "D:\\3DS_Mayara_Nicolly\\PAMII\\AppRpg\\AppRpgEtec\\obj\\",
+        "outputPath": "D:\\AppRpg\\AppRpgEtec\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -85,6 +85,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[7.0.86, )"
+            },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
               "version": "[7.0.52, )",
@@ -97,6 +101,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Xam.Plugin.Media": {
               "target": "Package",
@@ -215,6 +223,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[7.0.86, )"
+            },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
               "version": "[7.0.52, )",
@@ -227,6 +239,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Xam.Plugin.Media": {
               "target": "Package",
@@ -290,6 +306,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[7.0.86, )"
+            },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
               "version": "[7.0.52, )",
@@ -302,6 +322,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Xam.Plugin.Media": {
               "target": "Package",
@@ -366,6 +390,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[7.0.86, )"
+            },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
               "version": "[7.0.52, )",
@@ -394,6 +422,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Xam.Plugin.Media": {
               "target": "Package",

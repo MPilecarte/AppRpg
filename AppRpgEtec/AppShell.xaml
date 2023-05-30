@@ -41,10 +41,13 @@
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Home" Icon="home.svg"
                       ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
-
-        <ShellContent Title="Usuarios" Icon="menuusuarios.svg"
+        <Tab>
+            <ShellContent Title="Usuarios" Route="usuarios"  Icon="menuusuarios.svg"
                       ContentTemplate="{DataTemplate viewsUsuarios:ListagemView}"/>
-
+            <ShellContent Title="Tempo Real"  Icon="menuusuarios.svg"
+                      ContentTemplate="{DataTemplate viewsUsuarios:LocalizacaoView}"/>
+        </Tab>
+        
         <ShellContent Title="Armas" Icon="menuarmas.svg"
                       ContentTemplate="{DataTemplate viewsArmas:ListagemArmaView}"/>
 
