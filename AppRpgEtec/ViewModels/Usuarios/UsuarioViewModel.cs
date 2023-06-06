@@ -141,7 +141,7 @@ namespace AppRpgEtec.ViewModels.Usuarios
                     UsuarioService uServiceLoc = new UsuarioService(uAutenticado.Token);
                     await uServiceLoc.PutAtualizarLocalizacaoAsync(uLoc);   
 
-                                await Application.Current.MainPage
+                    await Application.Current.MainPage 
                         .DisplayAlert("Informação", mensagem, "Ok");
 
                     Application.Current.MainPage = new AppShell();  

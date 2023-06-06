@@ -39,6 +39,7 @@ namespace AppRpgEtec.ViewModels.Personagem
         private int vitorias;
         private int derrotas;
 
+        #region Atributos e Propridades
         public int Id
         {
             get => id;
@@ -154,7 +155,9 @@ namespace AppRpgEtec.ViewModels.Personagem
                 }
             }
         }
+        #endregion
 
+        #region Metodos
         public async Task ObterClasses()
         {
             try
@@ -254,5 +257,7 @@ namespace AppRpgEtec.ViewModels.Personagem
                  .DisplayAlert("Ops", ex.Message + "Detalhes: " + ex.InnerException, "Ok");
             }
         }
+
+        #endregion
     }
 }

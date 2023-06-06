@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj": {}
+    "D:\\3DS_Mayara_Nicolly\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj": {}
   },
   "projects": {
-    "D:\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj": {
+    "D:\\3DS_Mayara_Nicolly\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj",
+        "projectUniqueName": "D:\\3DS_Mayara_Nicolly\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj",
         "projectName": "AppRpgEtec",
-        "projectPath": "D:\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj",
+        "projectPath": "D:\\3DS_Mayara_Nicolly\\AppRpg\\AppRpgEtec\\AppRpgEtec.csproj",
         "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-        "outputPath": "D:\\AppRpg\\AppRpgEtec\\obj\\",
+        "outputPath": "D:\\3DS_Mayara_Nicolly\\AppRpg\\AppRpgEtec\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
